@@ -1,0 +1,21 @@
+<form (submit)="OnLogin()">
+  
+   
+  
+    <div class="form-group">
+      <label>User Name</label>
+      <input type="text" [(ngModel)]="username" name="username" class="form-control">
+    </div>
+  
+   
+  
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" [(ngModel)]="password" name="password" class="form-control">
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  
+  
+  
+  </form>
